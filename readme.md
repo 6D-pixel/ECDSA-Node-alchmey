@@ -20,8 +20,8 @@ key2: "97c47cac6c71f4a7dc7cfa5470cc432f7dcf76b9bcaf97c4d0161e31a3b7ccb3"
 Address2: "0xffb949ff757e1a97ec57ccebed7195b1af419cc0": 50,
 
 key3: "e9d0831a5eaeef0d2abbfcffd42c5cedde2321c3ff61beb1024f78a5c68acb00"
-Address3:"0xbd6483364d660cc05094695cc0d5dc6cf1ca2982": 75,,
- ```
+Address3:"0xbd6483364d660cc05094695cc0d5dc6cf1ca2982": 75,
+```
 
 ## ECDSA Node
 
