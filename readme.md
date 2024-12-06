@@ -1,4 +1,7 @@
 ## HOW TO USE
+
+![image of the app](site.PNG)
+
 # Server side
 
 - The client folder has example private keys in lib.js and the corresponding addresses is used in the index.js of the server folder
@@ -17,10 +20,10 @@ key1: "5e5fe668e1456428b83cdc267110829058543a66e1d1cc808955fd8f843ed26e"
 Address1: "0x4981b1d34bd026fde8b445de55dbe3df74577471",
 
 key2: "97c47cac6c71f4a7dc7cfa5470cc432f7dcf76b9bcaf97c4d0161e31a3b7ccb3"
-Address2: "0xffb949ff757e1a97ec57ccebed7195b1af419cc0": 50,
+Address2: "0xffb949ff757e1a97ec57ccebed7195b1af419cc0",
 
 key3: "e9d0831a5eaeef0d2abbfcffd42c5cedde2321c3ff61beb1024f78a5c68acb00"
-Address3:"0xbd6483364d660cc05094695cc0d5dc6cf1ca2982": 75,
+Address3:"0xbd6483364d660cc05094695cc0d5dc6cf1ca2982",
 ```
 
 ## ECDSA Node
@@ -30,6 +33,7 @@ This project is an example of using a client and server to facilitate transfers 
 However, something that we would like to incoporate is Public Key Cryptography. By using Elliptic Curve Digital Signatures we can make it so the server only allows transfers that have been signed for by the person who owns the associated address.
 
 ### Video instructions
+
 For an overview of this project as well as getting started instructions, check out the following video:
 
 https://www.loom.com/share/0d3c74890b8e44a5918c4cacb3f646c4
@@ -54,4 +58,7 @@ The server folder contains a node.js server using [express](https://expressjs.co
 The application should connect to the default server port (3042) automatically!
 
 _Hint_ - Use [nodemon](https://www.npmjs.com/package/nodemon) instead of `node` to automatically restart the server on any changes.
-````
+
+```
+
+```
